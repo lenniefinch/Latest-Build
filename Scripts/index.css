@@ -25,7 +25,7 @@ img {
   padding: 0px;
 }
 
-gallery__item{
+a.gallery__item{
   max-height: 350px;
 }
 
