@@ -25,6 +25,10 @@ img {
   padding: 0px;
 }
 
+gallery__item{
+  max-height: 350px;
+}
+
 ul.transition li {
   text-decoration: none;
   list-style-type: none;
