@@ -28,6 +28,7 @@ img {
 a.gallery__item{
   max-height: 100%;
   max-width: 100%;
+  object-fit: cover;
 }
 
 ul.transition li {
