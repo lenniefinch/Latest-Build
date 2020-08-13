@@ -282,8 +282,8 @@ svg {
 }
 
 .cards {
-  grid-template-columns: 1fr;
-  grid-template-rows: 500px 1fr 300px;
+  -ms-grid-columns: 1fr;
+  -ms-grid-rows: 500px 1fr 300px;
   width: auto;
   padding-left: 50px;
   padding-right: 50px;
@@ -421,7 +421,7 @@ path:hover {
 
 .gallery {
   display: grid;
-  grid-template-columns: 1fr;
+  -ms-grid-columns: 1fr;
   overflow: hidden;
   z-index: 4;
   position: relative;
@@ -469,8 +469,8 @@ path:hover {
 
 .details {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
   gap: 1px 0px;
   grid-template-areas: ". phone email ." ". links links .";
   z-index: 10;
@@ -785,7 +785,7 @@ path:hover {
 
   .gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
     overflow: hidden;
     padding-bottom: 100px;
     grid-gap: 0px;
@@ -997,8 +997,8 @@ path:hover {
     }
 
     .cards {
-      grid-template-columns: 1fr;
-      grid-template-rows: 500px 1fr 300px;
+      -ms-grid-columns: 1fr;
+      -ms-grid-rows: 500px 1fr 300px;
       width: auto;
       padding-left: 50px;
       padding-right: 50px;
@@ -1138,7 +1138,7 @@ path:hover {
 
     .gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      -ms-grid-columns: repeat(auto-fit, minmax(300px, 1fr));
       overflow: hidden;
       padding-bottom: 100px;
     }
@@ -1184,8 +1184,8 @@ path:hover {
 
     .details {
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
+      -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      -ms-grid-rows: 1fr 1fr;
       gap: 1px 0px;
       grid-template-areas: ". phone email ." ". links links .";
       z-index: 10;
