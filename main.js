@@ -32,7 +32,3 @@ $("a[href='#bottom']").click(function () {
   return false;
 });
 
-//Page Load Alert
-  $(document).ready(function(){
-    alert('This Website is still a work in progress');
-  });
